@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/shanquan954/test#readme",
   "devDependencies": {
+    "@commitlint/config-conventional": "^18.4.4",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
@@ -26,5 +27,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "prettier": "3.1.1"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^18.4.4"
   }
 }
