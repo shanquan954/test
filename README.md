@@ -84,3 +84,40 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged
+
+   ```
+
+## Commit-lint
+
+### 1. Install
+
+```bash
+npm install --save-dev @commitlint/{cli,config-conventional,prompt-cli}
+echo "module.exports = {extends: ['@commitlint/config-conventional']};" > commitlint.config.js
+```
+
+### 2. Provide a shortcut
+
+```json
+{
+  "scripts": {
+    "commit": "commit"
+  }
+}
+```
+
+### 3. Test Prompt
+
+```bash
+git add .
+npm run commit
+```
+
+### 4. Use CZ-Git
+
+```bash
+yarn add -D cz-git
+```
+
+
+

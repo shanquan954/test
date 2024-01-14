@@ -714,6 +714,11 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+cz-git@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.npmmirror.com/cz-git/-/cz-git-1.8.0.tgz#d8566ae4b8848f04b7368e4a24dc0a465fc98dcd"
+  integrity sha512-XL5nXiqbW10YswQqWODrbwyWhydw3mLhP8OBrXyl8u4sIjTf/6mhGsizd6FA2VgPc4tZaNGguFoUyDj7vIBouw==
+
 dargs@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmmirror.com/dargs/-/dargs-7.0.0.tgz#04015c41de0bcb69ec84050f3d9be0caf8d6d5cc"
